@@ -1,59 +1,50 @@
 # Udemy Courses Analytics | SQL, Python & Power BI
 
 ## Project Overview
-
-This project analyzes Udemy course data to explore course pricing, paid vs. free courses, subscriber reach, course levels, reviews, and publishing trends. The goal is to identify patterns in course popularity, pricing, and content distribution.
-
-## Dataset
-
-- **Rows:** 3,678
-- **Columns:** 12
-- **Unique Course IDs:** 3,672
-- **Missing Values:** 0
-
-## Tools Used
-
-- **SQL (MySQL)** — Data analysis and business queries
-- **Python (Pandas)** — Data cleaning and exploratory data analysis
-- **Microsoft Power BI** — Dashboard development and data visualization
-
-## Key Analysis Areas
-
-- Overall course and pricing analysis
-- Paid vs. free course comparison
-- Subject-wise subscriber analysis
-- Course-level distribution
-- Publishing trends by year
-- Top courses by subscribers and reviews
-- KPI reporting and business insights
+This project analyzes Udemy course data to understand course distribution, pricing, popularity, and subscriber engagement. The goal is to identify useful trends and turn raw course data into meaningful business insights.
 
 ## Dashboard Preview
 
-![Udemy Courses Analytics Dashboard](Udemy_Courses_Dashboard_Verified_Pro.png)
+![Udemy Courses Analytics Dashboard](<Udemy Courses Analytics Dashboard.png>)
 
-## Important Note
+## Dataset Information
+- **Total Records:** 3,678
+- **Total Columns:** 12
+- **Unique Course IDs:** 3,672
+- **Missing Values:** 0
 
-Subscriber and review totals are summed across course records and do not necessarily represent unique learners or reviewers. The dataset contains repeated course IDs, so row counts and unique course counts are reported separately.
+## Tools & Technologies
+- **SQL / MySQL:** Data analysis and business queries
+- **Python:** Data cleaning and exploratory data analysis
+- **Pandas:** Data manipulation and analysis
+- **Power BI:** Dashboard visualization
 
-## Project Files
+## Key Analysis Areas
+- Paid vs. free course comparison
+- Course distribution by subject and level
+- Subscriber engagement across subjects
+- Course pricing analysis
+- Course publishing trends over time
+- Popular courses based on subscribers and reviews
+- Course duration and subscriber patterns
 
-- `udemy.csv` — Source dataset
-- `Udemy_Courses_SQL_Analysis.sql` — SQL analysis queries
-- `Udemy_Courses_Dashboard_Verified_Pro.png` — Dashboard preview
-- `Udemy_Courses_Analysis.ipynb` — Python analysis notebook
-- `Udemy_Courses_Dashboard.pbix` — Power BI dashboard
+## Key Findings
+- The dataset contains 3,678 course records across 12 columns.
+- There are 3,672 unique course IDs.
+- The dataset contains no missing values.
+- Paid courses make up the majority of the records.
+- Course subjects and levels can be compared to understand the structure of the catalog.
+- Subscriber and review counts help identify courses with higher recorded engagement.
 
-## Key Learnings
+## Repository Files
+- `udemy.csv` — Dataset used for analysis
+- `Udemy_Courses_SQL_Analysis.sql` — SQL queries for analysis
+- `Udemy Courses Analytics Dashboard.png` — Dashboard image
 
-- Analyzing course pricing and popularity
-- Comparing paid and free course records
-- Exploring subject-wise subscriber patterns
-- Understanding course publishing trends
-- Communicating findings through data visualizations
+## Project Objective
+The objective of this project is to practice data analysis, SQL querying, and business intelligence by exploring an online course marketplace dataset and presenting findings in an understandable format.
 
 ## Author
-
 **Lovkesh Kumar**
 
-- **GitHub:** [Lovkesh Kumar](https://github.com/lovkeshkumar425-sys)
-- **LinkedIn:** [Connect with me](https://www.linkedin.com/)
+[GitHub Profile](https://github.com/lovkeshkumar425-sys) | [LinkedIn Profile](https://www.linkedin.com/in/lovkesh-kumar-b65b6a382)
